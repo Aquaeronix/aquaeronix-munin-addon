@@ -26,9 +26,9 @@ The plugin requires munin to be functioning on the computer.
 
 BUILDING/SETUP
 ----------------
-Copy plugin files into `/usr/local/munin/lib/plugins` and make executable. Then create a symbolic link to the `servicedir`. 
+Copy plugin files into `/usr/local/munin/lib/plugins` and make executable. Then create a symbolic link to the `servicedir` (usually located `/etc/munin/plugins/`.)
 
-Copy the configuration files into the `plugin-conf.d` directory. 
+Copy the configuration files into the `plugin-conf.d` directory which is either located in `/etc/munin/` (through package management) or `/etc/opt/munin/` (built from source). 
 
 More information on installing munin plugins on http://guide.munin-monitoring.org
 
